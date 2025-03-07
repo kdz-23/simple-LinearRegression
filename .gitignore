@@ -1,0 +1,20 @@
+myenv/
+.myenv/
+
+
+# Python compiled files
+*.pyc
+__pycache__/
+
+# Python packages and modules (including scikit-learn)
+# Note: These are typically in site-packages, which is part of the global or virtual env Python install
+site-packages/
+*.egg-info/
+dist/
+build/
+*.egg
+
+*.vscode/  # VS Code
+
+requirements.txt
+road_accident_model.pkl
